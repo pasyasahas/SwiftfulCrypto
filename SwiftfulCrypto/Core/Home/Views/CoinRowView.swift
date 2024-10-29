@@ -27,9 +27,9 @@ struct CoinRowView: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     Group {
-        CoinRowView(coin: CoinPreviewUtility.instance.coin, showHoldingsColumn: true)
+        CoinRowView(coin: DeveloperPreview.instance.coin, showHoldingsColumn: true)
         
-        CoinRowView(coin: CoinPreviewUtility.instance.coin, showHoldingsColumn: true)
+        CoinRowView(coin: DeveloperPreview.instance.coin, showHoldingsColumn: true)
             .colorScheme(.dark)
     }
 }
