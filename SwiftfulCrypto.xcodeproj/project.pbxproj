@@ -33,6 +33,9 @@
 		1560FED92CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEC02CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift */; };
 		1560FEDB2CD3E6ED00B0FB93 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEDA2CD3E6ED00B0FB93 /* MarketDataModel.swift */; };
 		1560FEDD2CD3EAF900B0FB93 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEDC2CD3EAF900B0FB93 /* MarketDataService.swift */; };
+		1560FF8D2CD3F9FB00B0FB93 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FF8C2CD3F9FB00B0FB93 /* PortfolioView.swift */; };
+		1560FF8F2CD3FD8000B0FB93 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FF8E2CD3FD7F00B0FB93 /* XMarkButton.swift */; };
+		1560FF912CD3FF8700B0FB93 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FF902CD3FF8700B0FB93 /* CoinLogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		1560FEC02CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		1560FEDA2CD3E6ED00B0FB93 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		1560FEDC2CD3EAF900B0FB93 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
+		1560FF8C2CD3F9FB00B0FB93 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		1560FF8E2CD3FD7F00B0FB93 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
+		1560FF902CD3FF8700B0FB93 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		15F5D7102CCFE1FA00BDB967 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1560FEA02CD3DE0900B0FB93 /* CoinImageView.swift */,
+				1560FF902CD3FF8700B0FB93 /* CoinLogoView.swift */,
 				1560FEA12CD3DE0900B0FB93 /* CoinImageViewModel.swift */,
 			);
 			path = CoinImage;
@@ -101,6 +108,7 @@
 				1560FE9F2CD3DE0900B0FB93 /* CircleButton */,
 				1560FEA32CD3DE0900B0FB93 /* SearchBarView.swift */,
 				1560FEA42CD3DE0900B0FB93 /* StatisticView.swift */,
+				1560FF8E2CD3FD7F00B0FB93 /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				1560FEAA2CD3DE0900B0FB93 /* HomeView.swift */,
+				1560FF8C2CD3F9FB00B0FB93 /* PortfolioView.swift */,
 				1560FEA92CD3DE0900B0FB93 /* HomeStatsView.swift */,
 				1560FEA82CD3DE0900B0FB93 /* CoinRowView.swift */,
 			);
@@ -297,6 +306,7 @@
 				1560FEC42CD3DE0900B0FB93 /* CircleButtonAnimationView.swift in Sources */,
 				1560FEC52CD3DE0900B0FB93 /* CircleButtonView.swift in Sources */,
 				1560FEC62CD3DE0900B0FB93 /* CoinImageView.swift in Sources */,
+				1560FF8F2CD3FD8000B0FB93 /* XMarkButton.swift in Sources */,
 				1560FEC72CD3DE0900B0FB93 /* CoinImageViewModel.swift in Sources */,
 				1560FEC82CD3DE0900B0FB93 /* SearchBarView.swift in Sources */,
 				1560FEC92CD3DE0900B0FB93 /* StatisticView.swift in Sources */,
@@ -310,11 +320,13 @@
 				1560FED02CD3DE0900B0FB93 /* Double.swift in Sources */,
 				1560FED12CD3DE0900B0FB93 /* UIApplication.swift in Sources */,
 				1560FED22CD3DE0900B0FB93 /* CoinModel.swift in Sources */,
+				1560FF912CD3FF8700B0FB93 /* CoinLogoView.swift in Sources */,
 				1560FED32CD3DE0900B0FB93 /* StatisticModel.swift in Sources */,
 				1560FEDD2CD3EAF900B0FB93 /* MarketDataService.swift in Sources */,
 				1560FED42CD3DE0900B0FB93 /* CoinDataService.swift in Sources */,
 				1560FED52CD3DE0900B0FB93 /* CoinImageService.swift in Sources */,
 				1560FED62CD3DE0900B0FB93 /* LocalFileManager.swift in Sources */,
+				1560FF8D2CD3F9FB00B0FB93 /* PortfolioView.swift in Sources */,
 				1560FED72CD3DE0900B0FB93 /* NetworkingManager.swift in Sources */,
 				1560FED82CD3DE0900B0FB93 /* ContentView.swift in Sources */,
 				1560FED92CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift in Sources */,
