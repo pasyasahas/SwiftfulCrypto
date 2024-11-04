@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153A4D862CD934BC00161AE4 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A4D852CD9338000161AE4 /* HapticManager.swift */; };
 		1560FEC22CD3DE0900B0FB93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1560FEB62CD3DE0900B0FB93 /* Preview Assets.xcassets */; };
 		1560FEC32CD3DE0900B0FB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1560FEBE2CD3DE0900B0FB93 /* Assets.xcassets */; };
 		1560FEC42CD3DE0900B0FB93 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FE9D2CD3DE0900B0FB93 /* CircleButtonAnimationView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153A4D852CD9338000161AE4 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		1560FE9D2CD3DE0900B0FB93 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		1560FE9E2CD3DE0900B0FB93 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		1560FEA02CD3DE0900B0FB93 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 		1560FEBD2CD3DE0900B0FB93 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				153A4D852CD9338000161AE4 /* HapticManager.swift */,
 				1560FEBB2CD3DE0900B0FB93 /* LocalFileManager.swift */,
 				1560FEBC2CD3DE0900B0FB93 /* NetworkingManager.swift */,
 			);
@@ -325,6 +328,7 @@
 				1560FECE2CD3DE0900B0FB93 /* Color.swift in Sources */,
 				1560FECF2CD3DE0900B0FB93 /* DeveloperPreview.swift in Sources */,
 				1560FED02CD3DE0900B0FB93 /* Double.swift in Sources */,
+				153A4D862CD934BC00161AE4 /* HapticManager.swift in Sources */,
 				1560FED12CD3DE0900B0FB93 /* UIApplication.swift in Sources */,
 				1560FED22CD3DE0900B0FB93 /* CoinModel.swift in Sources */,
 				1560FF912CD3FF8700B0FB93 /* CoinLogoView.swift in Sources */,

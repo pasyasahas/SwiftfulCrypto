@@ -35,11 +35,15 @@ struct HomeView: View {
                 if !showPortfolio {
                     allCoinsList
                         .transition(.move(edge: .leading))
+                        .refreshable {
+                            withAnimation(.linear(duration: 2.0)) {
+                                vm.reloadData()
+                            }
+                        }
                 }
                 if showPortfolio {
                     portfolioCoinsList
-                        .transition(.move(edge: .trailing))
-                }
+                        .transition(.move(edge: .trailing))                }
                 
                 Spacer(minLength: 0)
             }
