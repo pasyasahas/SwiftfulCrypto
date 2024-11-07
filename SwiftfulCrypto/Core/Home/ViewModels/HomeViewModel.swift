@@ -31,6 +31,7 @@ class HomeViewModel: ObservableObject {
     
     func addSubscriber(){
         
+
         // updates allCoins
         $searchText
             .combineLatest(coinDataService.$allCoins, $sortOption)
@@ -88,11 +89,6 @@ class HomeViewModel: ObservableObject {
         
         let lowercasedText = text.lowercased()
         
-        return coins.filter { coin -> Bool in
-            return coin.name.lowercased().contains(lowercasedText) ||
-                    coin.symbol.lowercased().contains(lowercasedText) ||
-                    coin.id.lowercased().contains(lowercasedText)
-        }
     }
     
     private func sortCoins(sort: SortOption, coins: inout [CoinModel]) {
