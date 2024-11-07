@@ -46,6 +46,7 @@
 		15A6B1362CD52B13001B54E8 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15A6B1342CD52B13001B54E8 /* PortfolioContainer.xcdatamodeld */; };
 		15A6B1382CD52BB5001B54E8 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A6B1372CD52BB5001B54E8 /* PortfolioDataService.swift */; };
 		15E2EC912CDD1C6900179425 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2EC902CDD1C6900179425 /* String.swift */; };
+		15FEEC082CDD3F4A00DECC87 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FEEC072CDD3F4A00DECC87 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		15A6B1372CD52BB5001B54E8 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		15E2EC902CDD1C6900179425 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		15F5D7102CCFE1FA00BDB967 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FEEC072CDD3F4A00DECC87 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				1560FEA52CD3DE0900B0FB93 /* Components */,
 				1560FEAC2CD3DE0900B0FB93 /* Home */,
 				153A4D872CD94B3300161AE4 /* Detail */,
+				15FEEC052CDD3F0600DECC87 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -282,6 +285,22 @@
 				15F5D7102CCFE1FA00BDB967 /* SwiftfulCrypto.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		15FEEC052CDD3F0600DECC87 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				15FEEC062CDD3F2D00DECC87 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		15FEEC062CDD3F2D00DECC87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15FEEC072CDD3F4A00DECC87 /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +413,7 @@
 				153897B72CDA82A3007CDA6B /* CoinDetailDataService.swift in Sources */,
 				153897B52CDA8277007CDA6B /* DetailViewModel.swift in Sources */,
 				15A6B1382CD52BB5001B54E8 /* PortfolioDataService.swift in Sources */,
+				15FEEC082CDD3F4A00DECC87 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
