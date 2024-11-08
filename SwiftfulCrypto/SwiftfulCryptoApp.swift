@@ -26,6 +26,7 @@ struct SwiftfulCryptoApp: App {
                     HomeView()
                         .navigationBarHidden(true)
                 }
+                
                 .environmentObject(vm)
                 
                 ZStack {

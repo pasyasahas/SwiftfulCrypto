@@ -34,7 +34,6 @@
 		1560FED52CD3DE0900B0FB93 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEB92CD3DE0900B0FB93 /* CoinImageService.swift */; };
 		1560FED62CD3DE0900B0FB93 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEBB2CD3DE0900B0FB93 /* LocalFileManager.swift */; };
 		1560FED72CD3DE0900B0FB93 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEBC2CD3DE0900B0FB93 /* NetworkingManager.swift */; };
-		1560FED82CD3DE0900B0FB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEBF2CD3DE0900B0FB93 /* ContentView.swift */; };
 		1560FED92CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEC02CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift */; };
 		1560FEDB2CD3E6ED00B0FB93 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEDA2CD3E6ED00B0FB93 /* MarketDataModel.swift */; };
 		1560FEDD2CD3EAF900B0FB93 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1560FEDC2CD3EAF900B0FB93 /* MarketDataService.swift */; };
@@ -79,7 +78,6 @@
 		1560FEBB2CD3DE0900B0FB93 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		1560FEBC2CD3DE0900B0FB93 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		1560FEBE2CD3DE0900B0FB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1560FEBF2CD3DE0900B0FB93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1560FEC02CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		1560FEDA2CD3E6ED00B0FB93 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		1560FEDC2CD3EAF900B0FB93 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
@@ -269,7 +267,6 @@
 				1560FEBA2CD3DE0900B0FB93 /* Services */,
 				1560FEB52CD3DE0900B0FB93 /* Models */,
 				1560FEAD2CD3DE0900B0FB93 /* Core */,
-				1560FEBF2CD3DE0900B0FB93 /* ContentView.swift */,
 				1560FEBE2CD3DE0900B0FB93 /* Assets.xcassets */,
 				1560FEB72CD3DE0900B0FB93 /* Preview Content */,
 			);
@@ -431,7 +428,6 @@
 				1560FED62CD3DE0900B0FB93 /* LocalFileManager.swift in Sources */,
 				1560FF8D2CD3F9FB00B0FB93 /* PortfolioView.swift in Sources */,
 				1560FED72CD3DE0900B0FB93 /* NetworkingManager.swift in Sources */,
-				1560FED82CD3DE0900B0FB93 /* ContentView.swift in Sources */,
 				153897B32CDA7E72007CDA6B /* CoinDetailModel.swift in Sources */,
 				1560FED92CD3DE0900B0FB93 /* SwiftfulCryptoApp.swift in Sources */,
 				153897B72CDA82A3007CDA6B /* CoinDetailDataService.swift in Sources */,
