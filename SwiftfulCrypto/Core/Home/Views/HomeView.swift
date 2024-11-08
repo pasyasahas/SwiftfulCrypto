@@ -12,6 +12,7 @@ struct HomeView: View {
     @EnvironmentObject private var vm: HomeViewModel
     @State private var showPortfolio: Bool = false // Animate right
     @State private var showPortfolioView: Bool = false // New sheet
+    @State private var showSettings: Bool = false // new sheet
     @State private var selectCoin: CoinModel? = nil
     @State private var showDetailView: Bool = false
     
@@ -44,10 +45,20 @@ struct HomeView: View {
                         }
                 }
                 if showPortfolio {
-                    portfolioCoinsList
-                        .transition(.move(edge: .trailing))                }
+                    ZStack(alignment: .top) {
+                        if vm.portfolioCoins.isEmpty && vm.searchText.isEmpty {
+                            portfolioEmptyText
+                        } else {
+                            portfolioCoinsList
+                        }
+                    }
+                    .transition(.move(edge: .trailing))
+                }
                 
                 Spacer(minLength: 0)
+            }
+            .sheet(isPresented: $showSettings) {
+                SettingsView()
             }
         }
         .background(
@@ -82,6 +93,8 @@ extension HomeView {
                 .onTapGesture {
                     if showPortfolio {
                         showPortfolioView.toggle()
+                    } else {
+                        showSettings.toggle()
                     }
                 }
                 .background(
@@ -114,6 +127,7 @@ extension HomeView {
                         .onTapGesture {
                             segue(coin: coin)
                         }
+                        .listRowBackground(Color.theme.background)
 //                }
                 
             }
@@ -132,6 +146,15 @@ extension HomeView {
             }
         }
         .listStyle(PlainListStyle())
+    }
+    
+    private var portfolioEmptyText: some View {
+        Text("You haven't added any coins to your portfolio yet! Click + button to get started. 🧐")
+            .font(.callout)
+            .foregroundStyle(Color.theme.accent)
+            .fontWeight(.medium)
+            .multilineTextAlignment(.center)
+            .padding(50)
     }
     
     private func segue(coin: CoinModel) {

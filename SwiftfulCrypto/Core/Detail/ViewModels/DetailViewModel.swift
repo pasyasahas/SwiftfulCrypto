@@ -42,7 +42,6 @@ class DetailViewModel: ObservableObject {
                 self?.coinDescription = returnedCoinDetails?.readableDiscription
                 self?.websiteURL = returnedCoinDetails?.links?.homepage?.first
                 self?.redditURL = returnedCoinDetails?.links?.subredditURL
-                print(self?.redditURL ?? "redditURL is nil")
             }
             .store(in: &cancellable)
         
